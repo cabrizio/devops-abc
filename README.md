@@ -15,10 +15,15 @@ You have the option to build this as you see fit.
 ## Task Objectives
 
 How would you setup your Infrastructure?
+
 How would you setup your infrastructure monitoring?
+
 How would you setup your log monitoring?
+
 How would you setup up your CI/CD workflow?
+
 How would you handle scaling?
+
 How would you handle the setup for new clients?
 
 
