@@ -13,6 +13,13 @@ The import thing to keep in mind is to have always a three layer of failures, in
 
 ![img.png](img.png)
 
+
+### Introduce REDIS Cache
+
+
+![img_2.png](img_2.png)
+
+
 ## How would you setup your infrastructure monitoring?
 First question is, are we allowed to spend money? 
 
@@ -62,7 +69,9 @@ one of the example to use is the benefit of having terraform.
 
 
 
+# EXTRA contents
 
+GitHub project
 
 
 
