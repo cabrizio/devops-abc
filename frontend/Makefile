@@ -1,5 +1,5 @@
 
-APP_NAME=node-docker-smartcow
+APP_NAME=frontend
 PORT=3000
 
 docker-build:

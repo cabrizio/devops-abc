@@ -71,7 +71,27 @@ one of the example to use is the benefit of having terraform.
 
 # EXTRA contents
 
-GitHub project
+GitHub project: https://github.com/cabrizio/devops-abc
+
+## How to use it 
+
+I have created two small app, one is the frontend page and the second is a backend.
+What they do is basically collect metrics from the instance and display on the frontend page.
+In order to make our life easier I have created a Dockerfile in order to build the image for the container, and a Makefile 
+that simplify the process.
+Makefile needs to be used as:
+ - make docker-build (in order to build our docker image)
+ - make docker-run (to run the container on port 5000/default)
+ - make docker-tag (if needed we can tag the img as v1.0)
+ - make docker-stop (it stops the container named backend/frontend)
+
+Also I have created a third app to demonstrate the integration with redis cache, and an external resource using mysql,
+and exposing an api.
+To execute the app it will be enough to type ```npm init``` then ```npm install --save axios express redis``` 
+and ```node app.js```.
+
+The DEV env could have some mistake, and could be improved, unfortunately did not have much time to deliver something 
+perfect to be released in prod.
 
 
 

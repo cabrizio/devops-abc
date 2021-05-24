@@ -1,4 +1,4 @@
-APP_NAME=python-docker-smartcow
+APP_NAME=backend
 PORT=5000
 
 docker-build:
